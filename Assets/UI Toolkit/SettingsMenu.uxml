@@ -1,0 +1,12 @@
+<engine:UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:engine="UnityEngine.UIElements" xmlns:editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/UI%20Toolkit/MenuStyle.uss?fileID=7433441132597879392&amp;guid=fce499861ff656e47999c21fabac13c2&amp;type=3#MenuStyle" />
+    <engine:VisualElement name="MainContainer" style="flex-grow: 1; background-color: rgba(0, 0, 0, 0.54); top: 1px; position: relative;">
+        <engine:Slider label="Slider" value="42" high-value="100" name="VolumeSlider" class="slider" style="width: 730px;" />
+        <engine:DropdownField label="Resolution" name="Resolution" class="dropDown" style="width: 739px;" />
+        <engine:DropdownField label="Window Mode" choices="Windowed,FullScreen,FullScreenExclusive" name="WindowMode" class="dropDown" style="width: 739px;" />
+        <engine:VisualElement name="BottomBar" style="flex-grow: 1; align-items: flex-start; height: auto; width: 1475px; top: auto;">
+            <engine:Button name="BackButton" class="sideButton" style="background-image: url(&quot;project://database/Assets/Downloaded%20assets/Space%20Shooter/GUI/PNG/Buttons/BTNs/Backward_BTN.png?fileID=2800000&amp;guid=08d7db8b3ff7c8d4e86375bd38919215&amp;type=3#Backward_BTN&quot;); position: relative; top: auto; left: auto; bottom: auto; -unity-text-align: middle-left;" />
+            <engine:Button name="ApplyButton" class="sideButton" style="background-image: url(&quot;project://database/Assets/Downloaded%20assets/Space%20Shooter/GUI/PNG/Buttons/BTNs/Ok_BTN.png?fileID=2800000&amp;guid=91b8468229a0ff8469ec7475187a5550&amp;type=3#Ok_BTN&quot;); position: relative; top: auto; left: auto; bottom: auto; right: auto;" />
+        </engine:VisualElement>
+    </engine:VisualElement>
+</engine:UXML>

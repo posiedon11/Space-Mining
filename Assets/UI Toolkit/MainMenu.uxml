@@ -1,0 +1,9 @@
+<engine:UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:engine="UnityEngine.UIElements" xmlns:editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/UI%20Toolkit/MenuStyle.uss?fileID=7433441132597879392&amp;guid=fce499861ff656e47999c21fabac13c2&amp;type=3#MenuStyle" />
+    <engine:VisualElement name="MainContainer" style="flex-grow: 1; background-image: url(&quot;project://database/Assets/2D%20Space%20Kit/Backgrounds/4.png?fileID=21300000&amp;guid=048e3f61b6de007439b544ab7ccff3c3&amp;type=3#4&quot;);">
+        <engine:Label text="Main Menu" name="Header" class="header" style="width: 826px; height: auto; position: relative; top: 131px; left: 551px;" />
+        <engine:Button text="&#10;" name="StartButton" class="button mainButton" style="background-image: url(&quot;project://database/Assets/Downloaded%20assets/Space%20Shooter/GUI/PNG/Main_Menu/Start_BTN.png?fileID=-3065671882426674951&amp;guid=8b37517d1f20c874aba60f86a0bb42f9&amp;type=3#Start_BTN_0&quot;); right: auto; position: relative; top: 306px; left: 735px;" />
+        <engine:Button text="&#10;" name="ExitButton" class="mainButton" style="background-image: url(&quot;project://database/Assets/Downloaded%20assets/Space%20Shooter/GUI/PNG/Main_Menu/Exit_BTN.png?fileID=2800000&amp;guid=95e39e5e3c6cbbd4fa447fc78b98e621&amp;type=3#Exit_BTN&quot;); top: 384px; left: 740px; position: relative; right: auto;" />
+        <engine:Button enable-rich-text="false" name="SettingsButton" enabled="true" class="sideButton" style="background-image: url(&quot;project://database/Assets/Downloaded%20assets/Space%20Shooter/GUI/PNG/Main_Menu/Settings_BTN.png?fileID=2800000&amp;guid=f9599979907f684459db10f9ad62ba31&amp;type=3#Settings_BTN&quot;); position: relative; top: 98px; left: 1443px;" />
+    </engine:VisualElement>
+</engine:UXML>

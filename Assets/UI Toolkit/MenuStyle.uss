@@ -1,0 +1,53 @@
+.header {
+    font-size: 155px;
+    color: rgb(255, 255, 255);
+}
+
+.button {
+}
+
+.mainButton {
+    width: 401px;
+    height: 151px;
+    border-top-left-radius: 27px;
+    border-top-right-radius: 27px;
+    border-bottom-right-radius: 27px;
+    border-bottom-left-radius: 27px;
+    transform-origin: center;
+}
+
+.sideButton {
+    width: 150px;
+    height: 150px;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+    border-top-width: -6px;
+    border-right-width: -6px;
+    border-bottom-width: -6px;
+    border-left-width: -6px;
+}
+
+.slider {
+    color: rgb(255, 255, 255);
+    font-size: 40px;
+}
+
+.sideButton {
+    width: 150px;
+    height: 150px;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+    border-top-width: -6px;
+    border-right-width: -6px;
+    border-bottom-width: -6px;
+    border-left-width: -6px;
+}
+
+.dropDown {
+    font-size: 40px;
+    color: rgb(255, 255, 255);
+}
